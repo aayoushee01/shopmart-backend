@@ -54,8 +54,8 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Example: React app URL
-    "https://your-production-url.com",
+    "http://localhost:3000",
+    "https://shopmart-frontend.vercel.app/",
 ]
 ROOT_URLCONF = 'shopmart.urls'
 
